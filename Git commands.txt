@@ -1,0 +1,28 @@
+Branching:
+---------------
+To show the branches 
+	git branch -a
+
+To create a branch
+	git branch <branchName>
+
+To switch to other branch
+	git checkout <branchname>
+
+To rename a branch
+	git branch -m <oldBranchName> <newBranchName>
+
+To delete a branch
+	 git branch -d master
+	A branch cannot be deleted if we are in the same branch
+
+To merge develop branch to master branch:
+	Checkout to destination branch
+		git checkout master
+	Merge develop branch to master
+		git merge develop
+
+To see the changes in branches
+git log --oneline --graph --decorate --all
+
+----------------------------------------------------------------
